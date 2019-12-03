@@ -1,0 +1,938 @@
+body {
+    background-image: url(fundo-01.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.frst-spc-aluno {
+    padding-top: 140px;
+}
+
+.nav-link {
+    font-family: "Capture it", "Dirty War", "Stencil", "impact";
+    font-size: 20px;
+}
+
+.navbar-font {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #555555;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #555555;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wel {
+    border-radius: 12;
+}
+
+.txt-size {
+    font-size: 14px;
+}
+
+.facebook-img {
+    max-height: 180px;
+    border-radius: 80px;
+}
+
+.copy-1 {
+    font-size: 19px;
+    padding-right: 60px;
+    padding-left: 60px;
+    color: black;
+    font-family: Oswald, Roboto Mono, Roboto Slab, PT Sans;
+}
+
+.pm-go {
+    min-width: auto;
+    min-height: 240px;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    background-image: linear-gradient(#f8f8f8, #dcdcdc);
+}
+
+.exercito {
+    min-width: auto;
+    min-height: 240px;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    background-image: linear-gradient(#dcdcdc, #f8f8f8);
+}
+
+.copy-2 {
+    padding-top: 50px;
+    min-width: auto;
+    min-height: 240px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    background-image: linear-gradient(#f8f8f8, #dcdcdc);
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.card-container {
+    border-radius: 20px 20px 20px 20px;
+    margin-left: -610px;
+    margin-top: 16px;
+    width: 200px;
+    height: 200px;
+    background-attachment: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+}
+
+.upper-container {
+    height: 150px;
+    background: #7f00ff;
+}
+
+.lower-container {
+    height: 280px;
+    background: coral;
+}
+
+.navbar-brand img {
+    width: 170px;
+}
+
+.navbar-brand {
+    padding-top: 17px;
+    padding-right: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+.navbar {
+    height: 100px;
+    padding: 1em 0 !important ;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+.banner {
+    size: 100%;
+    padding-top: 3%;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.home-header {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-image: url(BANNER-01.jpg);
+}
+
+.banner-text {
+    font-size: 36px;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 550px;
+    padding-bottom: 20px;
+}
+
+.banner-text .btn-primary {
+    background-image: linear-gradient(to right, #3636f3, #be43f1);
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 12px;
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+
+#team {
+    margin-top: -72px;
+}
+
+#team i {
+    font-size: 26px;
+    color: #555555;
+}
+
+#teamp p {
+    font-weight: 500;
+}
+
+div.cm0 {
+    overflow-x: scroll;
+}
+
+div.cp0 {
+    overflow-x: scroll;
+}
+
+div.cd0 {
+    overflow-x: scroll;
+}
+
+#team .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3.5px;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover {
+    background: #f1f2f6;
+    color: #e84118;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 7px #939393;
+}
+
+#team .card:hover h3,
+#team .card:hover i {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #009985;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+/* equal card height */
+.row-equal > div[class*="col-"] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+    width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner > .row-equal.active,
+.carousel-inner > .row-equal.next,
+.carousel-inner > .row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner > .row-equal.active.left,
+.carousel-inner > .row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.card-a-img {
+    max-height: 300px;
+}
+
+.card-header {
+    color: dodgerblue;
+}
+
+.row-fv {
+    margin-bottom: 88px;
+}
+.fv {
+    max-height: 100px;
+}
+
+.wl {
+    max-height: 75px;
+}
+
+.carreiras-policiais-index {
+    padding-bottom: 40px;
+    margin-top: 20px;
+    background-size: 100%;
+    background-image: url(banner-1.jpg);
+    margin-bottom: 20px;
+}
+
+.carreiras-policiais-xs {
+    margin-top: 20px;
+    padding-bottom: 60px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(carreiras-policiais-xs.jpg);
+}
+
+.carreiras-policiais-lg {
+    margin-top: 20px;
+    padding-bottom: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(carreiras-policiais-lg.jpg);
+}
+
+.carreiras-militares-xs {
+    margin-top: 20px;
+    padding-bottom: 63px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(carreiras-militares-xs.jpg);
+}
+
+.carreiras-militares-lg {
+    margin-top: 20px;
+    padding-bottom: 63px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(carreiras-militares-lg.jpg);
+}
+
+.phone {
+    height: 35px;
+}
+
+.wpp {
+    height: 38px;
+}
+
+.a-cp {
+    font-family: "Capture it", "Dirty War", "Stencil", "impact";
+    font-size: 26px;
+    margin-bottom: -27px;
+}
+
+.ig-logo {
+    padding-left: 34px;
+    margin-top: 10px;
+    margin-right: 49px;
+    height: 44px;
+    margin-bottom: 40px;
+}
+
+.ig-logo-ft {
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 40px;
+    margin-right: 49px;
+    height: 44px;
+    margin-bottom: 40px;
+}
+
+.tt-logo-ft {
+    text-align: center;
+    margin-right: 49px;
+    margin-top: 40px;
+    height: 47px;
+    margin-bottom: 40px;
+}
+
+.yt-logo-ft {
+    text-align: center;
+    margin-top: 40px;
+    height: 48px;
+    margin-bottom: 40px;
+}
+
+.tt-logo {
+    margin-right: 49px;
+    margin-top: 10px;
+    height: 47px;
+    margin-bottom: 40px;
+}
+
+.yt-logo {
+    margin-top: 10px;
+    height: 44px;
+    margin-bottom: 40px;
+}
+
+.cursos-diversos-xs {
+    margin-top: 20px;
+    padding-bottom: 63px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(cursos-diversos-xs.jpg);
+}
+
+.cursos-diversos-lg {
+    margin-top: 20px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(cursos-diversos-lg.jpg);
+}
+
+.carreiras-policiais-cursos {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-size: 100%;
+    background-image: url(banner-1.jpg);
+    margin-bottom: 20px;
+}
+
+.pmgo-soldado {
+    margin-top: 20px;
+    background-size: 100%;
+    background-image: url(pmgo-banner.jpeg);
+}
+
+.item {
+    border: 1px solid grey;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ct-pmgo {
+    height: 650px;
+    width: auto;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.collapse-space {
+    margin-bottom: 10px;
+}
+
+.pmgo-soldado-space {
+    padding-top: 50px;
+}
+
+.two-space {
+    margin-top: 220px;
+}
+
+.cp-text {
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.wl-ct {
+    margin-top: 25px;
+    padding-top: 20px;
+    background-color: #181818;
+    color: #ffffff;
+}
+
+.carreiras-militares-index {
+    padding-bottom: 40px;
+    margin-top: 0px;
+    background-size: 100%;
+    background-image: url(banner-02.jpg);
+}
+
+.carreiras-militares-cursos {
+    padding-bottom: 20px;
+    margin-top: 0px;
+    background-size: 100%;
+    background-image: url(banner-02.jpg);
+}
+
+/* .concursos-diversos-index {
+    padding-bottom: 39px;
+    margin-top: 0px;
+    background-size: 100%;
+    background-image: url(diversos-01.jpg);
+}
+
+.concursos-diversos-curso {
+    padding-bottom: 20px;
+    margin-top: 0px;
+    background-size: 100%;
+    background-image: url(diversos-01.jpg);
+} */
+
+.cm-text {
+    font-size: 36px;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 33%;
+    padding-bottom: 20px;
+}
+
+.cards-spacing {
+    margin-top: 15px;
+}
+
+.card-price {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #009985;
+}
+
+.card-sub-price {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: grey;
+}
+
+.matricule-se {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 40rem;
+    background-color: #fff;
+    position: relative;
+    padding: 30;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.navbar-font {
+    font-family: helvetica;
+    color: black;
+    font-size: 20px;
+}
+
+.form-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+    z-index: -1;
+    background: linear-gradient(to left, #e60000, #cc0000);
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.form-heading {
+    color: #fff;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 10rem;
+}
+
+form {
+    transform: translateX(0rem);
+    padding: 2rem 0;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+.input-group input {
+    position: relative;
+    widows: 100%;
+    padding: 1rem 0;
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    color: #fc6767;
+}
+
+.input-group > i {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #cc0000;
+}
+
+.input-group .bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 1px;
+}
+
+.input-group .bar::before {
+    content: "";
+    position: absolute;
+    background-color: #cc0000;
+    width: 0;
+    height: 2px;
+    transition: width 650ms;
+}
+
+.input-group input:focus + .bar::before {
+    width: 100%;
+}
+
+.input-group button {
+    margin: 3rem auto;
+    padding: 1rem 5rem;
+    background: linear-gradient(to left, #e60000, #cc0000);
+    border: none;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.input-group button:focus,
+.input-group button:hover {
+    background: linear-gradient(to left, #e60000, #cc0000);
+}
+
+.switch-login {
+    text-align: center;
+}
+
+.switch-login a {
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 1.5rem;
+}
+
+.switch-login a span {
+    color: #fc6767;
+}
+
+.switch-login a span:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #fc6767;
+}
+
+.aluno-top {
+    margin-top: -90px;
+}
+
+.top-pmgo-soldado {
+    margin-top: -70px;
+}
+
+@media screen and (max-widht: 700px) {
+    .form-container::before {
+        height: 10rem;
+    }
+
+    .form-heading {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    form {
+        border-radius: initial;
+        transform: initial;
+        box-shadow: none;
+    }
+}
+
+.row-curso {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background: #d0d0d0;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.btn {
+    border: 1px solid #e84118;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    margin: 10px;
+}
+
+.btn-primary {
+    width: 300px;
+    color: #e84118;
+}
+
+.btn-primary:hover {
+    background-color: #e84118;
+    color: #fff;
+    border-color: #e84118;
+}
+
+.btn-primary::before {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e84118;
+    border-color: #e84118;
+}
+
+.btn-primary::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn-primary::before {
+    height: 180%;
+}
+
+.btn-cursos {
+    width: auto;
+    color: #e84118;
+}
+
+.btn-cursos:hover {
+    background-color: #e84118;
+    color: #fff;
+    border-color: #fff;
+    transition: 0.7s;
+}
+
+.btn-cursos::before {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    background-color: #fff;
+    border-color: #e84118;
+}
+
+.btn-cursos::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn-cursos::before {
+    height: 180%;
+}
+
+.ct-eventos {
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 70px;
+}
+
+.aprovado {
+    margin-top: 340px;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-bottom: 600px;
+}
+
+.aprovado-2 {
+    margin-top: 50px;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-bottom: 600px;
+}
+
+.card-a {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    background: #262626;
+    overflow: hidden;
+    border-radius: 3.7px;
+}
+
+.card-a .imgBx,
+.card-a .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.card-a .imgBx {
+    top: 0;
+    left: 0;
+}
+
+.card-a:hover .imgBx {
+    top: 0;
+    left: 0;
+}
+
+.card-a .imgBx img {
+    width: 100%;
+}
+
+.card-a .details {
+    top: 0;
+    left: 100%;
+}
+
+.card-a:hover .details {
+    top: 290;
+    left: 0;
+}
+
+.card-a .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+}
+
+#block {
+    background: #2f3640;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#text {
+    color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#textr {
+    padding-right: 14px;
+    color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.a-spc {
+    margin-top: 140px;
+}
+
+.a-cm-txt {
+    text-align: center;
+    margin-bottom: -100px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.a-cp-txt {
+    text-align: center;
+    margin-bottom: -100px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.box-txt:hover {
+    transition: 0.6s;
+    color: #e84118;
+}
+
+.box-txt {
+    color: black;
+}
+
+.a-c-cm {
+    margin-left: -2rem;
+    text-align: left;
+    height: 45px;
+}
+
+.calendario {
+    padding-top: -60px;
+    height: 95px;
+    padding-bottom: 30px;
+}
+
+.clnd {
+    padding-left: 25px;
+    font-weight: bold;
+    margin-top: -75px;
+}
+
+.first-spc-aluno {
+    margin-top: 19px;
+}
+
+.boxes {
+    margin-right: 10px;
+    margin-top: -25px;
+    height: 140px !important;
+}
+
+.mapa {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 22em;
+}
+
+.h2-txt {
+    font-weight: bold;
+    font-family: monospace;
+}
